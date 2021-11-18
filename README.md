@@ -36,7 +36,7 @@ Installation
 1. Checkout sources from the GIT repository:
 
     `git clone https://github.com/django-erp/django-erp.git`
-    
+
    It will clone the entire repository in a folder called **django-erp**:
 
     `cd django-erp`
@@ -46,25 +46,25 @@ Installation
     `pip install -r requirements.txt`
 
 3. Copy and rename **djangoerp/settings/base.py.tmpl** to  **djangoerp/settings/base.py**.
- 
+
 4. Edit the **djangoerp/settings/base.py** content.
 
 5. Initialize the database and all applications:
 
-    `python manage migrate`
+    `python manage.py migrate`
 
 6. Test the installation running the development web-server (http://localhost:8000 on your browser):
 
-    `python manage runserver`
+    `python manage.py runserver`
 
-[virtualenv]: http://www.virtualenv.org/en/latest/    
+[virtualenv]: http://www.virtualenv.org/en/latest/
 [pip]: http://www.pip-installer.org/en/latest/
 
 
-Compile documentation 
+Compile documentation
 ----------------------
 
-1. Install required packages 
+1. Install required packages
 
     `pip install sphinx sphinx-autobuild`
 
@@ -72,7 +72,6 @@ Compile documentation
 
     `cd docs`
 
-3. Run builder 
+3. Run builder
 
     `make html`
-

@@ -52,6 +52,9 @@ _site
 djangoerp/settings/base.py
 djangoerp/media
 
-#docs
+# docs
 
 docs/_build/*
+
+# editor
+.vscode
